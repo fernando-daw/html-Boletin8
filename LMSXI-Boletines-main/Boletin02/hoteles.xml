@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <!-- Completar este documento para registrar hoteles,
     donde tengas nombre, teléfono, dirección(calle y número),
     ciudad, país, numero de estrellas, descripción del hotel,
@@ -7,3 +5,10 @@
     habitaciones triples, suites.
     Probar si es un documento bien formado.
 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agendas [
+  <!ELEMENT agendas(nombre,dirección,teléfono,codigo_p)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT direccion (#PCDATA)>
+  <!ELEMENT telefono (#PCDATA)>
+]>
