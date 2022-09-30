@@ -1,14 +1,41 @@
-<!-- Completar este documento para registrar hoteles,
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hotel [
+  <!ELEMENT hotel (nombre,telefono,dirección,teléfono,direccion,ciudad,pais,estrellas,descripcion,habitaciones_ind,habitaciones_dob,habitaciones_tri,suites)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT telefono (#PCDATA)>
+  <!ELEMENT direccion (calle,numero)>
+  <!ELEMENT calle (#PCDATA)>
+  <!ELEMENT numero (#PCDATA)>
+  <!ELEMENT ciudad (#PCDATA)>
+  <!ELEMENT pais (#PCDATA)>
+  <!ELEMENT estrellas (#PCDATA)>
+  <!ELEMENT descripcion (#PCDATA)>
+  <!ELEMENT habitaciones_ind (#PCDATA)>
+  <!ELEMENT habitaciones_dob (#PCDATA)>
+  <!ELEMENT habitaciones_tri (#PCDATA)>
+  <!ELEMENT suites (#PCDATA)>
+]>
+<hotel>
+  <nombre>Hotel Mirage</nombre>
+  <telefono>987884561</telefono>
+  <direccion>
+      <calle>Avenida Gloriosa</calle>
+      <numero>45</numero>
+  </direccion>
+  <ciudad>Ávila</ciudad>
+  <pais>España</pais>
+  <estrellas>3</estrellas>
+  <descripcion>Acogedor con buenas vistas y precios asequibles</descripcion>
+  <habitaciones_ind>2</habitaciones_ind>
+  <habitaciones_dob>4</habitaciones_dob>
+  <habitaciones_tri>1</habitaciones_tri>
+  <suites>2</suites>
+</hotel>
+
+<!-- Completar este documento para registrar hotel,
     donde tengas nombre, teléfono, dirección(calle y número),
     ciudad, país, numero de estrellas, descripción del hotel,
     número habitaciones individuales, habitaciones dobles,
     habitaciones triples, suites.
     Probar si es un documento bien formado.
 -->
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE agendas [
-  <!ELEMENT agendas(nombre,dirección,teléfono,codigo_p)>
-  <!ELEMENT nombre (#PCDATA)>
-  <!ELEMENT direccion (#PCDATA)>
-  <!ELEMENT telefono (#PCDATA)>
-]>
