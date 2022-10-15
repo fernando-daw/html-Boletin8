@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF- 8"?>
 <!DOCTYPE sistemaSolar [
-    <!ELEMENT sistemaSolar
-  (cuerpo*)>
-    <!ELEMENT cuerpo ((planeta|
-  satelite|asteroide)+)>
+    <!ELEMENT sistemaSolar (cuerpo*)>
+    <!ELEMENT cuerpo ((planeta|satelite|asteroide)+)>
     <!ELEMENT planeta (#PCDATA)>
     <!ELEMENT satelite (#PCDATA)>
     <!ELEMENT asteroide (#PCDATA)>]>
+    <sistemaSolar>
     <cuerpo>
         <planeta>Tierra</planeta>
         <satelite>Luna</satelite>
+        <asteroide>Ceres</asteroide>
+        <planeta>Venus</planeta>
+        <satelite>Europa</satelite>
+        <asteroide>Dimorphos</asteroide>
       </cuerpo>
-      <asteroide>Ceres</asteroide>
     </sistemaSolar>
     
